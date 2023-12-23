@@ -1,0 +1,60 @@
+*{
+    font-family: arial;
+}
+.bg-image {
+    
+    background-image: url("background.avif");
+    filter: blur(10px);   
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.container{
+    
+    
+    width: 400px;
+    height: auto;
+    background-color: transparent;
+    margin: 200px auto auto auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+    left: 30%;
+   
+    
+}
+h1,h4{
+    text-align: center;
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    font-size: large;  
+}
+button{
+    margin-top: 10px;
+    background-color: rgb(19, 19, 217);
+    padding: 10px;
+    width: 50%;
+    color: white;
+    font-size: larger;
+    border-radius: 20px;
+    border: 1px solid rgb(19, 19, 217);
+   
+}
+button:hover{
+    border: 1px solid red;
+    background-color: white;
+    color: rgb(19, 19, 217);
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
